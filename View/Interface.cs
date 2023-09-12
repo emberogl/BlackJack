@@ -3,7 +3,7 @@
 namespace BlackJack.View
 {
     /// <summary>
-    /// Main view class.
+    /// Main view class for handling user interface.
     /// </summary>
     public class Interface
     {

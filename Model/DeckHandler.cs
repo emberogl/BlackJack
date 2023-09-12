@@ -1,11 +1,11 @@
 ﻿namespace BlackJack.Model
 {
     /// <summary>
-    /// Responsible for deck logic.
+    /// Responsible for dealing the initial set of cards.
     /// </summary>
     public struct DeckHandler
     {
-        public static (Card[], Card[]) DealCards()
+        public static (Card[], Card[]) DealInitialCards()
         {
             // Initializes deck and shuffles it.
             Card[] deck = Deck.InitializeDeck();

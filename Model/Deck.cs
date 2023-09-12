@@ -1,7 +1,7 @@
 ﻿namespace BlackJack.Model
 {
     /// <summary>
-    /// Creates a deck with every possible combination of suits.
+    /// Creates a deck with every possible combination of suits and values.
     /// </summary>
     public struct Deck
     {

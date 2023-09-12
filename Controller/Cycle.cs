@@ -8,7 +8,7 @@ namespace BlackJack.Controller
         public void StartGame() {
 
             // Creates a deck, shuffles that deck, and hands the player and the dealer two cards.
-            (Card[] playerHand, Card[] dealerHand) = DeckHandler.DealCards();
+            (Card[] playerHand, Card[] dealerHand) = DeckHandler.DealInitialCards();
 
             // Displays the given cards to console.
             Interface.DisplayCards(playerHand, dealerHand[0]);

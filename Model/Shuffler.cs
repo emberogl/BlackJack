@@ -1,7 +1,7 @@
 ﻿namespace BlackJack.Model
 {
     /// <summary>
-    /// Deck shuffling algorithm.
+    /// Fisher-Yates shuffling algorithm.
     /// </summary>
     internal class Shuffler
     {
