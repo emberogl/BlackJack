@@ -10,6 +10,7 @@ namespace BlackJack.View
         // Displays player's cards in hand.
         public static void DisplayCards(Card[] playerHand, Card dealerCard)
         {
+            Console.Clear();
             Console.WriteLine("Your cards are:");
             foreach (Card card in playerHand)
             {

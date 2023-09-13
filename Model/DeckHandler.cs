@@ -6,7 +6,7 @@
     /// </summary>
     public struct DeckHandler
     {
-        public static (Card[], Card[]) DealInitialCards()
+        public static (Card[], Card[], Card[]) DealInitialCards()
         {
             // Initializes deck and shuffles it.
             Card[] deck = Deck.InitializeDeck();
@@ -19,7 +19,7 @@
             // Removing the cards from the deck because they were given to the players.
             Remove(0, 4, ref deck);
 
-            return (playerHand, dealerHand);
+            return (playerHand, dealerHand, deck);
         }
         // Removes terms from array by range
         public static void Remove(int min, int max, ref Card[] deck) 
